@@ -1,7 +1,7 @@
 //GAYAL HEWAKURUPPU
-//OOP PROGRAM 3
+//OOP 2143 - PROGRAM 3
 //DATE - 09/29/2018
-//https://github.com/gayalhk/2143-OOP-Hewakuruppu/tree/master/Assignments/PO3
+//Github repo - https://github.com/gayalhk/2143-OOP-Hewakuruppu/tree/master/Assignments/PO3
 
 #include <SFML/Graphics.hpp>
 
