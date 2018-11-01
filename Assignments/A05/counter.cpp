@@ -5,11 +5,7 @@
 
 #include <SFML/Graphics.hpp>
 #include <iostream>
-#include <ctime>
-#include <chrono>
 #include <string>
-#include <vector>
-#include <functional>
 #include<cstdlib>
 
 using namespace std;
