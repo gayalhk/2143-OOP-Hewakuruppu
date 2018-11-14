@@ -160,6 +160,9 @@ int main()
 
 	//Creating a counter
 	Counter C1(start,end);
+	Counter C2(end, start);
+	C2.changeClockPosition(250, 180);
+	C2.changeBackgroundColor(sf::Color::Green);
 
 	while (window.isOpen())
 	{
@@ -171,10 +174,13 @@ int main()
 		}
 
 		C1.updateCounter(start, end);
+		C2.updateCounter(end, start);
 		C1.moveClock();
+		C2.moveClock();
 
 		window.clear();
 		C1.drawCounter(window);
+		C2.drawCounter(window);
 		window.display();
 	}
 
