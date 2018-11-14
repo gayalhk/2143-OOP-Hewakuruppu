@@ -133,17 +133,17 @@ public:
 		int e = elapsed.asSeconds();
 
 
-		if (e <= 1) {
-			time.move(0.4f, 0.4f);
-			counterRectangle.move(0.4f, 0.4f);
+		if (e <= 2) {
+			time.move(0.2f, 0.2f);
+			counterRectangle.move(0.2f, 0.2f);
 		}
-		else if (e > 1 && e<=5) {
-			time.move(-0.4f, -0.4f);
-			counterRectangle.move(-0.4f, -0.4f);
+		else if (e > 2 && e<=6) {
+			time.move(-0.2f, -0.2f);
+			counterRectangle.move(-0.2f, -0.2f);
 		}
-		else if (e > 5) {
-			time.move(0.4f, 0.2f);
-			counterRectangle.move(0.4f, 0.2f);
+		else if (e > 6) {
+			time.move(0.2f, 0.0f);
+			counterRectangle.move(0.2f, 0.0f);
 		}
 
 	}
